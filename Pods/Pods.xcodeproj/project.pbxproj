@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185EA845E66A55492F9B920E1D0EF88D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B27A760E570C58801CC7B7C657581A6 /* CoreLocation.framework */; };
+		1B5AD85596B2D3FA10670AE946B1BF10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47600A8EE7745175B0896516F7982A34 /* Foundation.framework */; };
+		29B5A57C0049C48D55BFEF00B66E8DE6 /* SPGooglePlacesAutocomplete.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2534469B1793085A86B67526DAAF19 /* SPGooglePlacesAutocomplete.h */; };
+		40B7463D52C3D6D74D735DBE2E89D256 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = D9714673E02D86F653C00C8D3CA258C4 /* Empty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		44CC00A7BC7D0F3AC9D86324A35917DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47600A8EE7745175B0896516F7982A34 /* Foundation.framework */; };
+		4A30AC82CEB44D3A3710179E1F00F12F /* LFSPGooglePlacesAutocomplete-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4C84D7593F468C0693DE95747C3AD7 /* LFSPGooglePlacesAutocomplete-dummy.m */; };
+		4B69DABFCAA32ADAFAC8B4188AAC78FB /* SPGooglePlacesAutocompleteQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = DEAB6E84C8BDA55FEDE919317A42A719 /* SPGooglePlacesAutocompleteQuery.h */; };
+		4E741B213742E60EDB2CE9ECA31E6ACD /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3C97F24FE39BE2A7E1E48A50F4A5B7 /* SPGooglePlacesAutocompleteUtilities.m */; };
+		6C8BEC1CAF882F2D850D34EE823A8F0E /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FE28237621F21E66BE320AEED0654 /* SPGooglePlacesAutocompletePlace.m */; };
+		6E4167A7726C07B062AB4096940DF9B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47600A8EE7745175B0896516F7982A34 /* Foundation.framework */; };
+		773E2914F133B88728CC3F15CCD95D31 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B40337C159E778F9774B84B4C92C5C35 /* Security.framework */; };
+		7A1B552219E31610C80CC0D3780EB706 /* SPGooglePlacesPlaceDetailQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F70F183DB784458C4C063ADCC88647 /* SPGooglePlacesPlaceDetailQuery.m */; };
+		818B9AC41B82FDA17AF95C74F2E30F50 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A1BBD7576385A19F24C94B0DAF0952 /* Pods-dummy.m */; };
+		8D369EA99CCFD5DFD32AA62311A11D01 /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FD5F1FBB1B1A9E6C9E68922544D5B3 /* Flurry-iOS-SDK-dummy.m */; };
+		94DECCCD3A55F6D74E84D8D2574CCCD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD5D4352203EB9C7ECB181B33C9CCF81 /* UIKit.framework */; };
+		B418614ED065C11BCF79B456292D5CF0 /* SPGooglePlacesAutocompleteUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB4C84CCA437A58F4E88BC9A3236D386 /* SPGooglePlacesAutocompleteUtilities.h */; };
+		C7E75B1D7025B5464251132CB645F7DA /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4931FA110FD59FE8053E19405B338ADB /* Flurry.h */; };
+		C82E31AD9FF9BE4F507EAFE906F08BBC /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D1BF2E1EB0B4AE232FDE1FD9AAF794 /* SPGooglePlacesAutocompleteQuery.m */; };
+		CC09CC3CE1B0C31010CE296FF3A3082F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039FA7E32E3ABC503F1FCABC8455105B /* SystemConfiguration.framework */; };
+		E17D2C2791E8913A3939692C5881A0E6 /* SPGooglePlacesPlaceDetailQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9BBEF0A147BF4A2E496C5B49E337B3 /* SPGooglePlacesPlaceDetailQuery.h */; };
+		ED928C0DE7C8A53C73BBDCE405CB0E62 /* SPGooglePlacesAutocompletePlace.h in Headers */ = {isa = PBXBuildFile; fileRef = D489BD046A69BE45880A15D7B57FC362 /* SPGooglePlacesAutocompletePlace.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E31591A032647E38F89087DAE51C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EA4105B939388CEA0328C86C369C752;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+		FD51D0166515C7ED05C2EC814D8418AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 979C6A5637506A68FD97239E96CAEF7E;
+			remoteInfo = LFSPGooglePlacesAutocomplete;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039FA7E32E3ABC503F1FCABC8455105B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		129FE28237621F21E66BE320AEED0654 /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompletePlace.m; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
+		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1730CFBE668543A78C2BCDDAAFFD72F8 /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		19EA7726877E8ADD26D5EAC32046CF2D /* LFSPGooglePlacesAutocomplete-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LFSPGooglePlacesAutocomplete-prefix.pch"; sourceTree = "<group>"; };
+		26FD5F1FBB1B1A9E6C9E68922544D5B3 /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		3A9BBEF0A147BF4A2E496C5B49E337B3 /* SPGooglePlacesPlaceDetailQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesPlaceDetailQuery.h; path = SPGooglePlacesAutocomplete/SPGooglePlacesPlaceDetailQuery.h; sourceTree = "<group>"; };
+		3D0CBCB56E08ACF936837BD65FE4B9F9 /* LFSPGooglePlacesAutocomplete-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LFSPGooglePlacesAutocomplete-Private.xcconfig"; sourceTree = "<group>"; };
+		41158C3489FDC4D443C32C3B959E23B2 /* Flurry-iOS-SDK-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK-Private.xcconfig"; sourceTree = "<group>"; };
+		47600A8EE7745175B0896516F7982A34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4931FA110FD59FE8053E19405B338ADB /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		4B991C8728A096AB73850CD994021812 /* LFSPGooglePlacesAutocomplete.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LFSPGooglePlacesAutocomplete.xcconfig; sourceTree = "<group>"; };
+		5704B89C6340A022754EB085107C5B2A /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		5A2534469B1793085A86B67526DAAF19 /* SPGooglePlacesAutocomplete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocomplete.h; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocomplete.h; sourceTree = "<group>"; };
+		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		654BE205E6F0D40818695D04D1CE5F0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D1BF2E1EB0B4AE232FDE1FD9AAF794 /* SPGooglePlacesAutocompleteQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompleteQuery.m; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteQuery.m; sourceTree = "<group>"; };
+		77FE5A5D15505C2052945428AC376831 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		86CB8518931A2B543C3BA20F8F3636D9 /* libFlurry_7.3.0.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.3.0.a; path = Flurry/libFlurry_7.3.0.a; sourceTree = "<group>"; };
+		9B27A760E570C58801CC7B7C657581A6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		AD5D4352203EB9C7ECB181B33C9CCF81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF14220EF9C97BB3073C5CEBF968C769 /* libLFSPGooglePlacesAutocomplete.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLFSPGooglePlacesAutocomplete.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A1BBD7576385A19F24C94B0DAF0952 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		B3ADC508DF46325E1B80C1B6EED9F316 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.5.2/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		B40337C159E778F9774B84B4C92C5C35 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; };
+		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3F70F183DB784458C4C063ADCC88647 /* SPGooglePlacesPlaceDetailQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesPlaceDetailQuery.m; path = SPGooglePlacesAutocomplete/SPGooglePlacesPlaceDetailQuery.m; sourceTree = "<group>"; };
+		CC4C84D7593F468C0693DE95747C3AD7 /* LFSPGooglePlacesAutocomplete-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LFSPGooglePlacesAutocomplete-dummy.m"; sourceTree = "<group>"; };
+		D06B0F719944B3A0D30D402A9B37B099 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		D489BD046A69BE45880A15D7B57FC362 /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompletePlace.h; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
+		D5966650C8D7CA0627EFFBEC503E7F34 /* libFlurry-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libFlurry-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9714673E02D86F653C00C8D3CA258C4 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = Flurry/Empty.m; sourceTree = "<group>"; };
+		DA3C97F24FE39BE2A7E1E48A50F4A5B7 /* SPGooglePlacesAutocompleteUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPGooglePlacesAutocompleteUtilities.m; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteUtilities.m; sourceTree = "<group>"; };
+		DB4C84CCA437A58F4E88BC9A3236D386 /* SPGooglePlacesAutocompleteUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompleteUtilities.h; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteUtilities.h; sourceTree = "<group>"; };
+		DEAB6E84C8BDA55FEDE919317A42A719 /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPGooglePlacesAutocompleteQuery.h; path = SPGooglePlacesAutocomplete/SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7533021CCE0DCD76584FF73A2177093A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4167A7726C07B062AB4096940DF9B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF92CBD0D31E42DB1F82DDA336A4114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185EA845E66A55492F9B920E1D0EF88D /* CoreLocation.framework in Frameworks */,
+				44CC00A7BC7D0F3AC9D86324A35917DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6B7507D08D6C041BD1E1BC8E06117F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B5AD85596B2D3FA10670AE946B1BF10 /* Foundation.framework in Frameworks */,
+				773E2914F133B88728CC3F15CCD95D31 /* Security.framework in Frameworks */,
+				CC09CC3CE1B0C31010CE296FF3A3082F /* SystemConfiguration.framework in Frameworks */,
+				94DECCCD3A55F6D74E84D8D2574CCCD6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1516C2ACC530C027EDCD4CFA1D2E8EAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86CB8518931A2B543C3BA20F8F3636D9 /* libFlurry_7.3.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				539E7B14D0B7955EE48141AD0B90AFC3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23D5317A09401C528D8F05339BBE420A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1730CFBE668543A78C2BCDDAAFFD72F8 /* Flurry-iOS-SDK.xcconfig */,
+				41158C3489FDC4D443C32C3B959E23B2 /* Flurry-iOS-SDK-Private.xcconfig */,
+				26FD5F1FBB1B1A9E6C9E68922544D5B3 /* Flurry-iOS-SDK-dummy.m */,
+				5704B89C6340A022754EB085107C5B2A /* Flurry-iOS-SDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		539E7B14D0B7955EE48141AD0B90AFC3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B27A760E570C58801CC7B7C657581A6 /* CoreLocation.framework */,
+				47600A8EE7745175B0896516F7982A34 /* Foundation.framework */,
+				B40337C159E778F9774B84B4C92C5C35 /* Security.framework */,
+				039FA7E32E3ABC503F1FCABC8455105B /* SystemConfiguration.framework */,
+				AD5D4352203EB9C7ECB181B33C9CCF81 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				99846EBBCD5EFAAAEDA4E1D9A0291345 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8446FC8D644222C51E045F2D1CF0AF3F /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				F1EF215C73BC530AC1DF14FE30B1DC62 /* FlurrySDK */,
+				23D5317A09401C528D8F05339BBE420A /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
+				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
+				B3A1BBD7576385A19F24C94B0DAF0952 /* Pods-dummy.m */,
+				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
+				D06B0F719944B3A0D30D402A9B37B099 /* Pods.debug.xcconfig */,
+				77FE5A5D15505C2052945428AC376831 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		99846EBBCD5EFAAAEDA4E1D9A0291345 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8446FC8D644222C51E045F2D1CF0AF3F /* Flurry-iOS-SDK */,
+				FA832DD4DD6B59140358675CB6D84373 /* Google-Mobile-Ads-SDK */,
+				BAB279A82DC824CC83A320B4D8CBC366 /* LFSPGooglePlacesAutocomplete */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5D7A31014812059234B43FD51196B18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADC508DF46325E1B80C1B6EED9F316 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAB279A82DC824CC83A320B4D8CBC366 /* LFSPGooglePlacesAutocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				5A2534469B1793085A86B67526DAAF19 /* SPGooglePlacesAutocomplete.h */,
+				D489BD046A69BE45880A15D7B57FC362 /* SPGooglePlacesAutocompletePlace.h */,
+				129FE28237621F21E66BE320AEED0654 /* SPGooglePlacesAutocompletePlace.m */,
+				DEAB6E84C8BDA55FEDE919317A42A719 /* SPGooglePlacesAutocompleteQuery.h */,
+				75D1BF2E1EB0B4AE232FDE1FD9AAF794 /* SPGooglePlacesAutocompleteQuery.m */,
+				DB4C84CCA437A58F4E88BC9A3236D386 /* SPGooglePlacesAutocompleteUtilities.h */,
+				DA3C97F24FE39BE2A7E1E48A50F4A5B7 /* SPGooglePlacesAutocompleteUtilities.m */,
+				3A9BBEF0A147BF4A2E496C5B49E337B3 /* SPGooglePlacesPlaceDetailQuery.h */,
+				C3F70F183DB784458C4C063ADCC88647 /* SPGooglePlacesPlaceDetailQuery.m */,
+				EBBB92D113A6FDB9D78DB1CAA8F86140 /* Support Files */,
+			);
+			path = LFSPGooglePlacesAutocomplete;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5966650C8D7CA0627EFFBEC503E7F34 /* libFlurry-iOS-SDK.a */,
+				AF14220EF9C97BB3073C5CEBF968C769 /* libLFSPGooglePlacesAutocomplete.a */,
+				654BE205E6F0D40818695D04D1CE5F0D /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EBBB92D113A6FDB9D78DB1CAA8F86140 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B991C8728A096AB73850CD994021812 /* LFSPGooglePlacesAutocomplete.xcconfig */,
+				3D0CBCB56E08ACF936837BD65FE4B9F9 /* LFSPGooglePlacesAutocomplete-Private.xcconfig */,
+				CC4C84D7593F468C0693DE95747C3AD7 /* LFSPGooglePlacesAutocomplete-dummy.m */,
+				19EA7726877E8ADD26D5EAC32046CF2D /* LFSPGooglePlacesAutocomplete-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LFSPGooglePlacesAutocomplete";
+			sourceTree = "<group>";
+		};
+		F1EF215C73BC530AC1DF14FE30B1DC62 /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				D9714673E02D86F653C00C8D3CA258C4 /* Empty.m */,
+				4931FA110FD59FE8053E19405B338ADB /* Flurry.h */,
+				1516C2ACC530C027EDCD4CFA1D2E8EAC /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		FA832DD4DD6B59140358675CB6D84373 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7A31014812059234B43FD51196B18 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50B072C7AC241DFB7D6BDCB972F9A8BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7E75B1D7025B5464251132CB645F7DA /* Flurry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D2486666FFA2B5B000FE6C3BBEADED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B5A57C0049C48D55BFEF00B66E8DE6 /* SPGooglePlacesAutocomplete.h in Headers */,
+				ED928C0DE7C8A53C73BBDCE405CB0E62 /* SPGooglePlacesAutocompletePlace.h in Headers */,
+				4B69DABFCAA32ADAFAC8B4188AAC78FB /* SPGooglePlacesAutocompleteQuery.h in Headers */,
+				B418614ED065C11BCF79B456292D5CF0 /* SPGooglePlacesAutocompleteUtilities.h in Headers */,
+				E17D2C2791E8913A3939692C5881A0E6 /* SPGooglePlacesPlaceDetailQuery.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7262C339CD34411E5504C45E2FD7E503 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2D1AF4F04E41DAA5A7CB5EDE958974 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				D5BE4166192D840F7030C28BDA2367B0 /* Sources */,
+				7533021CCE0DCD76584FF73A2177093A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				656C0020014A2C3571DEA8C56C2619A9 /* PBXTargetDependency */,
+				F7AE8E45687E33F5EBA8436C3AC2931F /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 654BE205E6F0D40818695D04D1CE5F0D /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8EA4105B939388CEA0328C86C369C752 /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5400DDA3F26F796473FA34D5ACE6BE13 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				3A27DB8FB80BAA216E7418096D10E97D /* Sources */,
+				FD6B7507D08D6C041BD1E1BC8E06117F /* Frameworks */,
+				50B072C7AC241DFB7D6BDCB972F9A8BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = D5966650C8D7CA0627EFFBEC503E7F34 /* libFlurry-iOS-SDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		979C6A5637506A68FD97239E96CAEF7E /* LFSPGooglePlacesAutocomplete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D5B596FDAA7110E9E1C96B0035027A /* Build configuration list for PBXNativeTarget "LFSPGooglePlacesAutocomplete" */;
+			buildPhases = (
+				72729B5B2E1BA7E22B55E6465315C415 /* Sources */,
+				BDF92CBD0D31E42DB1F82DDA336A4114 /* Frameworks */,
+				A6D2486666FFA2B5B000FE6C3BBEADED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFSPGooglePlacesAutocomplete;
+			productName = LFSPGooglePlacesAutocomplete;
+			productReference = AF14220EF9C97BB3073C5CEBF968C769 /* libLFSPGooglePlacesAutocomplete.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EA4105B939388CEA0328C86C369C752 /* Flurry-iOS-SDK */,
+				979C6A5637506A68FD97239E96CAEF7E /* LFSPGooglePlacesAutocomplete */,
+				7262C339CD34411E5504C45E2FD7E503 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A27DB8FB80BAA216E7418096D10E97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B7463D52C3D6D74D735DBE2E89D256 /* Empty.m in Sources */,
+				8D369EA99CCFD5DFD32AA62311A11D01 /* Flurry-iOS-SDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72729B5B2E1BA7E22B55E6465315C415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A30AC82CEB44D3A3710179E1F00F12F /* LFSPGooglePlacesAutocomplete-dummy.m in Sources */,
+				6C8BEC1CAF882F2D850D34EE823A8F0E /* SPGooglePlacesAutocompletePlace.m in Sources */,
+				C82E31AD9FF9BE4F507EAFE906F08BBC /* SPGooglePlacesAutocompleteQuery.m in Sources */,
+				4E741B213742E60EDB2CE9ECA31E6ACD /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
+				7A1B552219E31610C80CC0D3780EB706 /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BE4166192D840F7030C28BDA2367B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818B9AC41B82FDA17AF95C74F2E30F50 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		656C0020014A2C3571DEA8C56C2619A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = 8EA4105B939388CEA0328C86C369C752 /* Flurry-iOS-SDK */;
+			targetProxy = A1E31591A032647E38F89087DAE51C5B /* PBXContainerItemProxy */;
+		};
+		F7AE8E45687E33F5EBA8436C3AC2931F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LFSPGooglePlacesAutocomplete;
+			target = 979C6A5637506A68FD97239E96CAEF7E /* LFSPGooglePlacesAutocomplete */;
+			targetProxy = FD51D0166515C7ED05C2EC814D8418AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BCC46ADD1AE49B74FB58A1A03002312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06B0F719944B3A0D30D402A9B37B099 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E5A8A2DDC4282DD7D1599991C10E4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0CBCB56E08ACF936837BD65FE4B9F9 /* LFSPGooglePlacesAutocomplete-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFSPGooglePlacesAutocomplete/LFSPGooglePlacesAutocomplete-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B016B47B98CA699395C9B2B7897569D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D0CBCB56E08ACF936837BD65FE4B9F9 /* LFSPGooglePlacesAutocomplete-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LFSPGooglePlacesAutocomplete/LFSPGooglePlacesAutocomplete-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD1CBA2BC0AE89902BB34D64BB21BC39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41158C3489FDC4D443C32C3B959E23B2 /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D1DA5C0462C44416083B58167816261A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41158C3489FDC4D443C32C3B959E23B2 /* Flurry-iOS-SDK-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FAD319EC85E0980080569001BF1AA78A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77FE5A5D15505C2052945428AC376831 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5400DDA3F26F796473FA34D5ACE6BE13 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1CBA2BC0AE89902BB34D64BB21BC39 /* Debug */,
+				D1DA5C0462C44416083B58167816261A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2D1AF4F04E41DAA5A7CB5EDE958974 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCC46ADD1AE49B74FB58A1A03002312 /* Debug */,
+				FAD319EC85E0980080569001BF1AA78A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D5B596FDAA7110E9E1C96B0035027A /* Build configuration list for PBXNativeTarget "LFSPGooglePlacesAutocomplete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5A8A2DDC4282DD7D1599991C10E4D1 /* Debug */,
+				B016B47B98CA699395C9B2B7897569D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
